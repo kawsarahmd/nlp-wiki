@@ -7,7 +7,6 @@ Over the last decade, Natural Language Processing (NLP) has evolved from simple 
 
 ## Word2Vec: The Beginning of Modern NLP (2013)
 
-
 Before Word2Vec, computers could only see words as separate symbols — they had no idea that some words are related in meaning. Word2Vec changed that by turning words into **numbers** (called vectors) so that words with similar meanings are placed close to each other in a kind of “word space.”
 
 **Main idea:**
