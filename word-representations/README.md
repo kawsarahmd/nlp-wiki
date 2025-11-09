@@ -3,11 +3,10 @@
 
 Over the last decade, Natural Language Processing (NLP) has evolved from simple word representations to powerful models that can understand meaning, context, and relationships across entire texts. This transformation began with **Word2Vec** and gradually moved through **GloVe**, **fastText**, **ELMo**, **ULMFiT**, and eventually led to **BERT** and **GPT**. Each model contributed an important step in helping machines understand human language more accurately.
 
----
+
 
 ## Word2Vec: The Beginning of Modern NLP (2013)
 
----
 
 Before Word2Vec, computers could only see words as separate symbols — they had no idea that some words are related in meaning. Word2Vec changed that by turning words into **numbers** (called vectors) so that words with similar meanings are placed close to each other in a kind of “word space.”
 
