@@ -7,21 +7,24 @@ Over the last decade, Natural Language Processing (NLP) has evolved from simple 
 
 ## Word2Vec: The Beginning of Modern NLP (2013)
 
-Before Word2Vec, computers treated words as isolated symbols. There was no understanding of how words related to each other. Word2Vec changed that by converting words into **vectors**—numerical representations where words with similar meanings were placed close together in vector space.
+---
+
+Before Word2Vec, computers could only see words as separate symbols — they had no idea that some words are related in meaning. Word2Vec changed that by turning words into **numbers** (called vectors) so that words with similar meanings are placed close to each other in a kind of “word space.”
 
 **Main idea:**
-Words that appear in similar contexts tend to have similar meanings.
+Words that appear in similar situations usually have similar meanings.
 
 **Example:**
-Consider these two sentences:
+Take these two sentences:
 
-* The cat sits on the mat.
-* The dog lies on the rug.
+* The cat sleeps on the sofa.
+* The dog rests on the bed.
 
-Word2Vec learns that *cat* and *dog* often appear in similar positions and contexts, so their word vectors become similar. Likewise, *mat* and *rug* are also close in meaning. This idea allows computers to understand basic semantic relationships.
+Word2Vec notices that *cat* and *dog* often appear in similar places in sentences, so it learns that their meanings are related. The same happens with *sofa* and *bed*, which also appear in similar contexts. This helps computers understand which words are alike in meaning, even without knowing what they truly mean.
 
 **Limitation:**
-Word2Vec gives the same vector to a word no matter where it appears. For example, the word *bank* has the same representation in “river bank” and “money bank,” even though the meanings are different.
+Word2Vec gives the **same vector** to a word no matter how it’s used. For example, the word *Apple* will have one single meaning in the model, whether it appears in “Apple launched a new iPhone” or “I ate a red apple.” Even though one refers to a company and the other to a fruit, Word2Vec cannot tell the difference because it doesn’t look at the context deeply enough.
+
 
 ---
 
