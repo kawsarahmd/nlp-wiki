@@ -68,6 +68,7 @@ Although it handles unseen words better, it still gives the same vector for a wo
 Earlier models like Word2Vec would assign the same vector to *bank* in both sentences. ELMo, however, produces two different vectors based on the surrounding words. This was achieved by using **bidirectional LSTMs**, allowing the model to read text both forward and backward to understand full context.
 
 **Strength:** Captures word meaning based on surrounding words.
+
 **Weakness:** Still based on LSTM, which is slower and struggles with long sequences.
 
 ---
@@ -96,6 +97,7 @@ BERT predicts: *dog*
 Because it looks at both sides of the masked word, BERT understands context deeply. It became a foundation for many downstream NLP tasks like question answering, named entity recognition, and summarization.
 
 **Strength:** Strong bidirectional understanding and context awareness.
+
 **Limitation:** Computationally expensive and cannot generate text naturally (it’s an encoder-only model).
 
 ---
@@ -111,6 +113,7 @@ GPT predicts: *mat.*
 This simple next-word prediction allows GPT models to generate coherent and fluent paragraphs, complete stories, and even entire conversations. Each new version of GPT—GPT-2, GPT-3, GPT-4, and beyond—has expanded in scale and capability, demonstrating that with enough data and parameters, language models can perform tasks ranging from translation to code generation and reasoning.
 
 **Strength:** Excellent for text generation and creative tasks.
+
 **Limitation:** Lacks full bidirectional context (unlike BERT), though fine-tuning and large-scale training help overcome this.
 
 ---
@@ -133,7 +136,4 @@ This simple next-word prediction allows GPT models to generate coherent and flue
 
 The journey from Word2Vec to GPT shows how language models have evolved from simple statistical word relationships to deep contextual understanding and generation. Early models like Word2Vec and GloVe captured basic meaning but lacked context. Later models like ELMo and ULMFiT brought contextual and transferable understanding, while transformer-based models like BERT and GPT revolutionized the field by enabling truly human-like comprehension and generation of text.
 
-Today’s large language models are built upon these foundations, demonstrating how each step—no matter how simple—was essential in shaping the modern era of natural language processing.
-
-converted into a “Related Work” section for your NLP paper.
 
